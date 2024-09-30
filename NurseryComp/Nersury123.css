@@ -1,0 +1,36 @@
+.numbers-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .number-box {
+    background-color: #ffe066; /* Bright, playful color */
+    border-radius: 10px;
+    color: #ff5722; /* Child-friendly contrasting color */
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .number-box:hover {
+    background-color: #ffcc00;
+    transform: scale(1.1); /* Slight zoom effect */
+  }
+  
+  .number-box:active {
+    background-color: #ffb300;
+    transform: scale(1); /* Reset on click */
+  }
+  

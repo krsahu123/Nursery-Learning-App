@@ -1,0 +1,50 @@
+.nursery-footer {
+  overflow: hidden;
+  max-width: 100vw;
+  width: 100%;
+    background-color: #fce38a;
+    padding-top: 20px;
+    color: #333;
+    text-align: center;
+    border-top: 3px solid #ff6f61;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .footer-section {
+    margin: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-icon {
+    font-size: 24px;
+    color: #ff6f61;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+  }
+  
+  .fun-quote {
+    font-style: italic;
+    font-size: 1.2em;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #555;
+  }
+  

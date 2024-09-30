@@ -1,0 +1,50 @@
+/* Styling for the layout */
+.NurseryMainComponent{
+  /* overflow: hidden; */
+  overflow: hidden;
+  max-width: 100vw;
+  width: 100%;
+}
+
+.main-container {
+    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* padding: 20px; */
+    height: calc(120vh - 120px); /* Adjust height based on header and footer */
+    background-color: #f7f7f7; /* Light background to keep it child-friendly */
+  }
+  
+  .left-sidebar,
+  .right-sidebar {
+    flex: 0 0 20vw; /* 20% width */
+    background-color: #fce38a; /* Bright and friendly background */
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .main-content {
+    flex: 0 0 50%; /* 60% width */
+    background-color: #ff6f61; /* Main focus area with a fun color */
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sidebar {
+    text-align: center;
+  }
+  
+  .main-container > div {
+    margin: 10px;
+  }
+  
+  /* Ensure the puzzle board remains centered */
+  .puzzle-container {
+    margin: 0 auto;
+  }
+  
